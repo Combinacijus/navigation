@@ -30,10 +30,10 @@ It is assumed ROS2 and Nav2 dependent packages are installed or built locally. A
 
    .. code-block:: bash
 
-      sudo apt install ros-<ros2-distro>-robot-localization
-      sudo apt install ros-<ros2-distro>-mapviz
-      sudo apt install ros-<ros2-distro>-mapviz-plugins
-      sudo apt install ros-<ros2-distro>-tile-map
+      sudo apt install ros-${ROS_DISTRO}-robot-localization
+      sudo apt install ros-${ROS_DISTRO}-mapviz
+      sudo apt install ros-${ROS_DISTRO}-mapviz-plugins
+      sudo apt install ros-${ROS_DISTRO}-tile-map
     
 The code for this tutorial is hosted on `nav2_gps_waypoint_follower_demo <https://github.com/ros-planning/navigation2_tutorials/tree/master/nav2_gps_waypoint_follower_demo>`_. Though we will go through the most important steps of the setup, it's highly recommended that you clone and build the package when setting up your dev environment.
 

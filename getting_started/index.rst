@@ -25,14 +25,14 @@ Installation
 
    .. code-block:: bash
 
-      sudo apt install ros-<ros2-distro>-navigation2
-      sudo apt install ros-<ros2-distro>-nav2-bringup
+      sudo apt install ros-${ROS_DISTRO}-navigation2
+      sudo apt install ros-${ROS_DISTRO}-nav2-bringup
 
 3. Install the Turtlebot 3 packages (Humble and older):
 
    .. code-block:: bash
 
-      sudo apt install ros-<ros2-distro>-turtlebot3-gazebo
+      sudo apt install ros-${ROS_DISTRO}-turtlebot3-gazebo
 
 Running the Example
 *******************
@@ -44,7 +44,7 @@ Running the Example
 
       source /opt/ros/<ros2-distro>/setup.bash
       export TURTLEBOT3_MODEL=waffle
-      export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:/opt/ros/<ros2-distro>/share/turtlebot3_gazebo/models
+      export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:/opt/ros/${ROS_DISTRO}/share/turtlebot3_gazebo/models
 
 3. In the same terminal, run:
 

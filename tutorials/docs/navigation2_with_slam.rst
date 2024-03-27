@@ -27,7 +27,7 @@ If you don't have them installed, please follow :ref:`getting_started`.
 
 SLAM Toolbox can be installed via:
 
-  ``sudo apt install ros-<ros2-distro>-slam-toolbox``
+  ``sudo apt install ros-${ROS_DISTRO}-slam-toolbox``
 
 or from built from source in your workspace with:
 

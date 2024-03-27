@@ -77,7 +77,7 @@ We also need to install the ``gazebo_ros_pkgs`` package to simulate odometry and
 
 .. code-block:: shell
  
-  sudo apt install ros-<ros2-distro>-gazebo-ros-pkgs
+  sudo apt install ros-${ROS_DISTRO}-gazebo-ros-pkgs
 
 You can test if you have successfully set up your ROS 2 and Gazebo environments by following the instructions `given here <http://gazebosim.org/tutorials?tut=ros2_installing&cat=connect_ros#TestingGazeboandROS2integration>`_. 
 
@@ -369,7 +369,7 @@ First, install the ``robot_localization`` package using your machines package ma
 
 .. code-block:: shell
  
-  sudo apt install ros-<ros2-distro>-robot-localization
+  sudo apt install ros-${ROS_DISTRO}-robot-localization
 
 Next, we specify the parameters of the ``ekf_node`` using a YAML file. Create a directory named ``config`` at the root of your project and create a file named ``ekf.yaml``. Copy the following lines of code into your ``ekf.yaml`` file.
 
